@@ -4,6 +4,8 @@ node_js:
 script:
   - yarn lint
   - yarn test
+before_deploy:
+  - npm run build
 deploy:
   provider: firebase
   project: x-2019-08-31-test
