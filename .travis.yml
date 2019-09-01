@@ -4,3 +4,11 @@ node_js:
 script:
   - yarn lint
   - yarn test
+deploy:
+  provider: firebase
+  project: x-2019-08-31-test
+  token:
+    secure: $FIREBASE_TOKEN
+  on:
+    branch: release
+  skip_cleanup: true
