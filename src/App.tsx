@@ -9,7 +9,7 @@ const App: React.FC = () => {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome to my React App!
+          Welcome to my React App!!
         </p>
         <a
           className="App-link"
