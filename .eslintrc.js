@@ -34,6 +34,7 @@ module.exports = {
       'error',
       { extensions: ['.jsx', '.tsx'] },
     ],
+    'react/prop-types': 'off',
     'spaced-comment': [
       'error',
       'always',
